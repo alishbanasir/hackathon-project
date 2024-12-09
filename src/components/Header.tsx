@@ -71,7 +71,7 @@ Josefin Sans font-bold">
         <Link href="" className="text-[rgba(13,14,67,1)] text-[16px] font-Lato">
           Products
         </Link>
-        <Link href="" className="text-[rgba(13,14,67,1)] text-[16px] font-Lato">
+        <Link href="/blog" className="text-[rgba(13,14,67,1)] text-[16px] font-Lato">
           Blog
         </Link>
         <Link href="" className="text-[rgba(13,14,67,1)] text-[16px] font-Lato">

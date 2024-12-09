@@ -2,13 +2,12 @@ import React from 'react'
 import {FaFacebook, FaGithub} from 'react-icons/fa'
 import { RxInstagramLogo } from "react-icons/rx";
 import {FaLinkedin } from 'react-icons/fa'
-import Link from "next/link"
+
 
 function Footer() {
   return (
     <div>
         <footer className="text-gray-600 body-font bg-[#E7E4F8]">
-        {/* container px-5 py-24 */}
   <div className=" mx-auto px-5 py-20 max-w-[1177px] mt-[40px]">
     <div className="flex flex-wrap leading-10 md:text-left text-center order-first">
 
