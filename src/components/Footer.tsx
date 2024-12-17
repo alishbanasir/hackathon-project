@@ -6,7 +6,7 @@ import {FaLinkedin } from 'react-icons/fa';
 
 function Footer() {
   return (
-    <div>
+    <div className="mt-5">
         <footer className="text-gray-600 body-font bg-[#E7E4F8]">
   <div className=" mx-auto px-5 py-20 max-w-[1177px] mt-[40px]">
     <div className="flex flex-wrap leading-10 md:text-left text-center order-first">

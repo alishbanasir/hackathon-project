@@ -12,7 +12,6 @@ import { CiSearch } from "react-icons/ci";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
-
   return (
     <div>
     <div className="bg-[rgba(126,51,224,1)]">
@@ -68,13 +67,13 @@ Josefin Sans font-bold">
         <Link href="/about" className="text-[rgba(13,14,67,1)]  text-[16px] font-Lato">
           Page
         </Link>
-        <Link href="" className="text-[rgba(13,14,67,1)] text-[16px] font-Lato">
+        <Link href="/product" className="text-[rgba(13,14,67,1)] text-[16px] font-Lato">
           Products
         </Link>
         <Link href="/blog" className="text-[rgba(13,14,67,1)] text-[16px] font-Lato">
           Blog
         </Link>
-        <Link href="" className="text-[rgba(13,14,67,1)] text-[16px] font-Lato">
+        <Link href="/shop" className="text-[rgba(13,14,67,1)] text-[16px] font-Lato">
           Shop
         </Link>
         <Link href="/contactus" className="text-[rgba(13,14,67,1)] text-[16px] font-Lato">
@@ -94,22 +93,22 @@ Josefin Sans font-bold">
       } lg:hidden flex flex-col items-start w-full bg-white z-50`}
     >
       <nav className="flex flex-col gap-4 lg:gap-8 w-full">
-        <Link href="" className="text-[rgba(13,14,67,1)]  text-[16px] font-Lato">
+        <Link href="/" className="text-[rgba(13,14,67,1)]  text-[16px] font-Lato">
           Home
         </Link>
-        <Link href="" className="text-[rgba(13,14,67,1)] text-[16px] font-Lato">
-          About
+        <Link href="/about" className="text-[rgba(13,14,67,1)] text-[16px] font-Lato">
+          Page
         </Link>
-        <Link href="" className="text-[rgba(13,14,67,1)] text-[16px] font-Lato">
+        <Link href="/product" className="text-[rgba(13,14,67,1)] text-[16px] font-Lato">
           Products
         </Link>
-        <Link href="" className="text-[rgba(13,14,67,1)] text-[16px] font-Lato">
+        <Link href="/blog" className="text-[rgba(13,14,67,1)] text-[16px] font-Lato">
           Blog
         </Link>
-        <Link href="" className="text-[rgba(13,14,67,1)] text-[16px] font-Lato">
+        <Link href="/shop" className="text-[rgba(13,14,67,1)] text-[16px] font-Lato">
           Shop
         </Link>
-        <Link href="" className="text-[rgba(13,14,67,1)] text-[16px] font-Lato">
+        <Link href="/contactus" className="text-[rgba(13,14,67,1)] text-[16px] font-Lato">
           Contact
         </Link>
         <div className="flex mt-4 w-full">
