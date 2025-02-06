@@ -16,9 +16,23 @@ import { FaCircle } from "react-icons/fa6";
 import { RiArrowDropDownLine } from "react-icons/ri";
 import { FiAlignJustify } from "react-icons/fi";
 import { FiGrid } from "react-icons/fi";
+import { client } from "@/sanity/lib/client";
 
 
-export default function Shop() {
+export default async function Shop() {
+  const query = `*[_type=="product"]{
+     name,
+     category,
+     price,
+     description,
+     discountPercentage,
+     stockLevel,
+     isFeaturedProduct,
+     image
+}`;
+const product = await client.fetch(query);
+console.log(product, product.length);
+
     return (
 <div>
 <div className="bg-white">
