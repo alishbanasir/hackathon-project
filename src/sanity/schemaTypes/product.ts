@@ -1,5 +1,4 @@
-import { Rule } from '@sanity/types';  // Import Rule type if available
-
+import { Rule } from '@sanity/types';  
 const productSchema={
   name: 'product',
   type: 'document',
